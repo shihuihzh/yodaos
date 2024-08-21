@@ -20,6 +20,6 @@ jobs:
     - name: install dependencies for ubuntu
       run: sudo apt-get install build-essential libncurses5-dev
     - name: configure
-      run: ./configure -p rpi -c rpi3b_plus
+      run: ./configure -p k18 -c rpi3b_plus
     - name: make image
       run: make -j1 V=s
